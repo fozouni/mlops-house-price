@@ -1,0 +1,23 @@
+artifact_path: file:E:/Previous-Courses/Simple-MLOps-Text-Course/mlops-house-price/mlruns/1/models/m-2e32b5ae56344d459cf36a39f6a74c8f/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.14
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-2e32b5ae56344d459cf36a39f6a74c8f
+model_size_bytes: 7272920
+model_uuid: m-2e32b5ae56344d459cf36a39f6a74c8f
+prompts: null
+run_id: 50a99f3cddb44a9499d3d7e93c1d319b
+utc_time_created: '2026-07-09 14:16:02.072180'
